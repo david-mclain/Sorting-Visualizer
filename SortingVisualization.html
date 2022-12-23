@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8" content="with=device-width, initial-scale=1.0"></meta>
+	<meta charset="utf-8" content="width=device-width, initial-scale=1.0"></meta>
 	<title>David McLain - Sorting Visualizer</title>
-	<link rel="shortcut icon" href="bin/logo_64x64.png"></link>
 	<link rel="stylesheet" href="sortingVisualization.css"></link>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,6 +10,7 @@
 </head>
 <body">
 	<div class="main">
+		<!--Nav bar containing buttons for user to decide which algorithm to visualize-->
 		<nav>
 			<a href="index.html"><img src="bin/logo_128x128.png"></img></a>
 			<div class="sorting-options">
@@ -21,6 +21,7 @@
 					<li><button onclick="heapSort()" id="heapSortButton"><span></span>Heap Sort</button></li>
 			</div>
 		</nav>
+		<!--Where the bars to demonstrate animation will be-->
 		<section class="bars-container"></section>
 	</div>
 </body>
